@@ -1,0 +1,247 @@
+@font-face {
+	font-family: Emellie;
+	src:local(Emellie),
+	    url("../assets/fonts/Emellie.woff") format("woff");
+}
+body {
+	background-size: cover;
+	font-family: Montserrat, sans-serif;
+	
+	/*background: radial-gradient(circle 993px at 0.5% 98.5%, rgba(0, 239, 247, 1) 0%, rgba(0, 122, 147, 1) 46.7%, rgba(0, 29, 72, 1) 100.2%) no-repeat;*/
+}
+
+#nav-wrapper {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 20;
+	background: #fff;
+	border-bottom: 1px solid #eee;
+	
+}
+nav{
+	width: 100%;
+	box-shadow: 0 14px 40px 15px rgba(0,64,128,0.2);
+	
+}
+.navbar-brand{
+	font-family: Emellie,sans-serif;
+	font-size: 55px;
+	z-index: 10;
+	padding: 2px 15px;
+}
+
+.testcontent {
+	height: 300px;
+	margin-top: 20px;
+	/*background: #000 url("./assets/images/EVENTS1.png") no-repeat center;*/
+	min-width: 100%;
+	
+}
+
+.testcontent img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.nav-item {
+	display: block;
+	padding: 0 10px;
+	font-weight: 500;
+	border-bottom: 1px solid #fff;
+	
+}
+
+/*.nav-item:hover {*/
+
+/*background-color: #f6f6f6;*/
+/*}*/
+.navbar-brand, .nav-item a{
+	-webkit-background-clip: text;
+	background-image: linear-gradient(90deg, #0e8f73, #25b99a);
+	-webkit-text-fill-color: transparent;
+}
+
+.nav-item a {
+	height: 100%;
+	width: 100%;
+	padding: 20px;
+	
+}
+
+.nav-item:after {
+	display: block;
+	content: '';
+	border-bottom: 1px solid #0e8f73;
+	transform: scaleX(0);
+	transition: .25s ease-in-out;
+}
+.nav-item{
+	cursor: pointer;
+}
+.nav-item:hover:after {
+	transform: scaleX(1);
+}
+.dropdown-item{
+	padding: 5px 10px !important;
+}
+.dropdown-item:hover{
+	background-image: linear-gradient(to right, #0d5b43,#0e8f73);
+}
+.fa-portrait, .fa-calendar-alt,.fa-map-marker-alt{
+	color: #25b99a;
+	
+}
+.fa-portrait{
+	font-size: 25px;
+}
+
+.event-wrapper {
+	margin:-20px 10% 0 10%;
+	height: fit-content;
+	display: grid;
+	grid-gap: 3%;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	/*grid-auto-columns: 1fr;*/
+	grid-auto-rows: min-content;
+	padding-bottom: 50px;
+}
+
+.event-card2 {
+	/*width: 30%;*/
+	max-height: 500px;
+	display: block;
+	font-weight: 600;
+	background-color: #fff;
+	border-radius: .3rem;
+	min-width: 18rem;
+	box-shadow: 0 14px 40px 15px rgba(0, 64, 128, 0.2);
+	transition: .2s;
+	
+}
+
+.form-wrapper{
+	margin: 0 10%;
+	box-shadow: 0 14px 40px 15px rgba(0, 64, 128, 0.2);
+	padding: 20px;
+	display: block;
+}
+.form-header{
+	/*width: 100%;*/
+	height: 30px;
+	padding: 0 10px;
+	font-weight: 600;
+	font-size: 1.2em;
+	margin: -19px -20px 10px -20px;
+	background: #0e8f73;
+	color: #fff;
+	text-align: center;
+}
+
+.event-card2 .header-div {
+	/*background-image: linear-gradient(to right, #019fb6, #06bbcb);*/
+	background-image: linear-gradient(90deg, #0e8f73, #25b99a);
+	max-height: 52px;
+	width: 100%;
+	
+}
+
+.header-div p {
+	color: #fff;
+	padding: 5px;
+	/*font-weight: 600;*/
+	min-font-size: 14px;
+	overflow-wrap: break-word;
+	text-overflow: ellipsis;
+	white-space: normal;
+	max-font-size: 18px;
+}
+
+.event-card2 .content-div {
+	height: 210px;
+	width: 100%;
+	font-size: 14px;
+	padding: 1px 20px;
+	box-shadow: 0 3px 10px #eee;
+}
+
+.content-div > p {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.event-card2 .footer-div {
+	margin-top: 5px;
+	height: 50px;
+	display: block;
+	margin-bottom: 0;
+	width: 100%;
+}
+
+.custbutton {
+	color: #25b99a;
+	/*font-size: 20px;*/
+	font-weight: 600;
+	border: 2px solid #25b99a;
+	background: #fff;
+	padding: 0 10px;
+	height: 70%;
+	margin: 1px 10px;
+	float: right;
+	border-radius: .2rem;
+	transition: .4s;
+}
+
+.custbutton:hover {
+	background: #25b99a;
+	color: #fff;
+	cursor: pointer;
+	transition: .4s;
+}
+
+.tickettable {
+	
+	font-size: 13px;
+	font-weight: 400;
+	
+}
+.image-div {
+	height: 170px;
+	width: 100%;
+	padding: 0;
+}
+
+.image-div img {
+	width: 100%;
+	height: 100%;
+	border: 2px solid #fff;
+	border-bottom-width: 0;
+	border-radius:.3rem .3rem 0 0;
+	object-fit: cover;
+}
+#myTable {
+	font-size: 14px;
+	margin: 0 5%;
+	
+}
+
+.table-wrapper{
+	margin: 10px 2px;
+	padding: 10px;
+	
+	border-radius: 2px;
+	box-shadow: 0 14px 40px 15px rgba(0, 64, 128, 0.2);
+	
+}
+.modal-header, #myTable thead{
+	color: #fff;
+	background: #0e8f73;
+}
+.modal-body table{
+	font-size: 13px;
+}
+#booking-form{
+	opacity: 0;
+}

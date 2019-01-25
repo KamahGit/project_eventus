@@ -1,0 +1,122 @@
+@font-face {
+	font-family: Emellie;
+	src: local(Emellie),
+	url("../assets/fonts/Emellie.woff") format("woff");
+	
+}
+
+/*@font-face {*/
+	/*font-family: Open_Sans;*/
+	/*src: local("Open Sans Condensed Light"),*/
+	/*url("../assets/fonts/OPS.ttf") format("truetype");*/
+	/**/
+/*}*/
+
+
+nav {
+	/*box-shadow: 0 2px 3px #ccc;*/
+	background: #fff;
+	border-bottom: 1px solid #eee;
+	width: 100%;
+	box-shadow: 0 14px 40px 15px rgba(0,64,128,0.2);
+	
+}
+
+
+/*#navContent ul li {*/
+	/*padding: 0 30px;*/
+	/*font-size: 23px;*/
+	/*font-weight: 300;*/
+	/*font-family: Open_Sans, sans-serif;*/
+	/*border-left: 1px dotted #da1b60;*/
+/*}*/
+
+/*#navContent ul li:last-of-type {*/
+	/*border-right: 1px dotted #da1b60;*/
+/*}*/
+
+.modal-header {
+	color: #fff;
+}
+
+.navbar-brand {
+	font-family: 'Emellie', sans-serif;
+	font-weight: bold;
+	z-index: 5;
+	/*min-width: 18rem;*/
+	font-size: 55px;
+	/*background-image: linear-gradient(90deg, #25b99a, #0e8f73);*/
+	background-image: radial-gradient( circle 993px at 0.5% 98.5%,  rgba(0,239,247,1) 0%, rgba(0,122,147,1) 46.7%, rgba(0,29,72,1) 100.2% );
+	padding: 0 15px;
+}
+
+
+.navbar-brand{
+	
+	/* background: -webkit-linear-gradient(rgb(211, 97, 97), #333); */
+	-webkit-background-clip: text;
+	
+	-webkit-text-fill-color: transparent;
+}
+
+
+.card-img-top {
+	/* border: 1px dashed #0e8f73; */
+	height: 150px;
+	width: 100%;
+}
+
+#loginForm {
+}
+
+
+
+
+
+/*div.wrapping-div,*/
+/*div.wrapping-seen {*/
+	/**/
+	/*min-height: 300px;*/
+	/*z-index: 100;*/
+	/*border-radius: 5px;*/
+	/*display: flex;*/
+	/*flex-direction: column;*/
+	/*justify-content: space-evenly;*/
+	/*!*flow-into: initial;*!*/
+	/*min-width: 400px;*/
+	/*!*justify-content: space-evenly;*!*/
+	/*margin: -100px 10% 40px;*/
+	/*overflow: auto;*/
+	/*!*column-count: 4 !important;*!*/
+	/**/
+/*}*/
+
+/*.wrapping-seen {*/
+	/*border: 1px solid #ccc;*/
+	/*box-shadow: 1px 2px 3px #eee;*/
+	/*background: #fff;*/
+	/*margin-bottom: 100px;*/
+	/**/
+/*}*/
+
+
+
+#heading-text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 26px;
+}
+
+#heading-new {
+	align-self: flex-end;
+	margin-left: 60%;
+}
+
+
+
+
+
+
+
+

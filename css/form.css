@@ -1,0 +1,42 @@
+#fname + span,
+#lname + span {
+	content: 'Name cannot be empty!';
+	color: red;
+	display: none;
+}
+
+#form {
+	/*max-width: fit-content;*/
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+label+span{
+	color: red;
+}
+
+legend {
+	font-size: 1.5em;
+}
+
+#name-div {
+	justify-content: stretch;
+}
+
+input[type=checkbox] + div {
+	visibility: hidden;
+}
+
+input[type=checkbox]:checked + div {
+	visibility: visible;
+}
+
+#regular-inputs input:last-of-type, #free-inputs input:last-of-type, #vip-inputs input:last-of-type, #vvip-inputs input:last-of-type {
+	margin-top: 2px;
+}
+
+#label-tick {
+	color: #fff;
+	margin-top: -7px;
+	background: #0e8f73;
+}
